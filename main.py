@@ -4,9 +4,9 @@ import pandas as pd
 
 
 ### INPUTS
-pklfile = 'Euro2024.pkl'
-firstPlayoffRow = 51 # first playoff row in excel file
-title = 'Euro 2024'
+pklfile = 'CopaAmerica2024.pkl'
+firstPlayoffRow = 35 # first playoff row in excel file
+title = 'Copa America 2024'
 
 ## load data
 scoreData = pd.read_pickle(pklfile)
